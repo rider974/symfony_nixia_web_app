@@ -40,6 +40,7 @@ class Intervention
         return $this->id;
     }
 
+
     public function getTitleIntervention(): ?string
     {
         return $this->title_intervention;

@@ -63,4 +63,15 @@ class Employee
 
         return $this;
     }
+
+    public function getLogin($pin): Employee
+    {
+        $newPin = htmlspecialchars($pin); 
+
+    // connection bdd 
+
+    // request
+
+    // send back a response 
+    }
 }
